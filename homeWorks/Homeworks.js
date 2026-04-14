@@ -84,7 +84,7 @@
 //     }
 // }
 
-// 4. Massiv yig'indisi (Sum Array logikasi):
+// 4. Massiv yig'indisi (Sum Array logika si):
 
 // function getDailyRevenue(pricesArray) { 
 //     let total = 0;
@@ -97,12 +97,12 @@
 
 // 5. Oxirgi element va Capitalize(Last Element & Capitalize logikasi):
 
-function formatLastGuest(guestsArray) { 
-    if (guestsArray.length === 0) { 
-        return null
-    }
-    let lastGuest = guestsArray[guestsArray.length - 1].at(0).toUpperCase() + guestsArray[guestsArray.length - 1].slice(1).toLowerCase()
-    return lastGuest
+// function formatLastGuest(guestsArray) { 
+//     if (guestsArray.length === 0) { 
+//         return null
+//     }
+//     let lastGuest = guestsArray[guestsArray.length - 1].at(0).toUpperCase() + guestsArray[guestsArray.length - 1].slice(1).toLowerCase()
+//     return lastGuest
 
-}
-formatLastGuest([`Salom`,`azaMat`,`gomma`])
+// }
+// formatLastGuest([`Salom`,`azaMat`,`gomma`])
