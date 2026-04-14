@@ -1,0 +1,1 @@
+const allEvens = (allEvens) => allEvens.every(odd => odd % 2 == 0)
